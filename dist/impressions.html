@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
+        <title>Boris Mijatović</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
@@ -15,28 +15,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link  href="css/animsition.min.css" rel="stylesheet">
     </head>
-    <body id="page-top">
+    <body id="page-top" class="">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Борис Мијатовић</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Boris Mijatović</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li> -->
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger animsition-link" href="./index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#impressions">Impressions</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" onclick="setLanguage('en')" >Srb/En</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead"  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url('./assets/img/image\ 04.jpg');  background-size: cover;">
+        <header class="masthead"  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url('./assets/img/image\ 02.jpg');  background-size: cover;">
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-3 text-uppercase" style="font-family: 'Averia Serif Libre'">Impresije</h1>
@@ -50,7 +51,11 @@
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-white mb-4"></h2>
                         <p class="text-white-50">
-                            these are my impressions
+                            Napravio sam ovaj projekat sa idejom da, ogranicen vremenskim okvirom od jednog sata, 
+                            stvorim prvi muzicki/zvucni utisak inspirisan jednom od svojih fotografija.
+                            <br>
+                            <br>
+                            <span style="font-weight:bolder;font-size:larger;">Ovde mozete videti neke od njih.</span>
                             <br>
                         </p>
                     </div>
@@ -59,15 +64,127 @@
         </section>
         <!-- Projects-->
         <section class="projects-section bg-light" id="impressions">
-
                     <!-- Featured Project Row-->
-                <div class="container">
+                <div class="container on-desktop">
+                    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                                <iframe class="resp-iframe" src="https://drive.google.com/file/d/1Z4sag7ixWyr8Nc1vtITKKqKJ7Y4Ear07/preview" allow="fullscreen"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text text-center text-lg-left">
+                                <h4>Сунца / Suns</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ovde zavrsava -->
+                    <!-- Tekst levo, video desno -->
+                    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text2 text-center text-lg-left">
+                                <h4>Кишни дани / Rainy days</h4>
+                            </div>                           
+                        </div>
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                                <iframe class="resp-iframe" src="https://drive.google.com/file/d/1L7lsgZNhOa3-nO_TnoYz7kob1_70DXZx/preview" allow="fullscreen"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ovde zavrsava -->
                     <!-- Tekst desno, video levo -->
                     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                        <div class="col-xl-8 col-lg-7"><iframe src="https://drive.google.com/file/d/1r4p6WniWZl38QFz2jfiEu19BkOj9ULDM/preview" width="640" height="360"></iframe></div>
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                                <iframe class="resp-iframe" src="https://drive.google.com/file/d/1r4p6WniWZl38QFz2jfiEu19BkOj9ULDM/preview" allow="fullscreen"></iframe>
+                            </div>
+                        </div>
                         <div class="col-xl-4 col-lg-5">
                             <div class="featured-text text-center text-lg-left">
                                 <h4>Сутон / Dusk</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ovde zavrsava -->
+                    <!-- Tekst levo, video desno -->
+                    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text2 text-center text-lg-left">
+                                <h4>Лука / Harbour</h4>
+                            </div>                           
+                        </div>
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                                <iframe class="resp-iframe" src="https://drive.google.com/file/d/1zUhTx-KkCd6wXpFJQsucgTp165-C26vj/preview" allow="fullscreen"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ovde zavrsava -->
+                    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                                <iframe class="resp-iframe" src="https://drive.google.com/file/d/1SRfF3sZmfzYe7V7f5zDYkXVwcP5vozy0/preview" allow="fullscreen"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text text-center text-lg-left">
+                                <h4>Раскршћа / Crossroads</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Two Row-->
+                    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text2 text-center text-lg-left">
+                                <h4>Трска / Reed</h4>
+                            </div>                           
+                        </div>
+                        <!-- width="640" height="360" -->
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                            <iframe class="resp-iframe" src="https://drive.google.com/file/d/13PeGvUaBVepocPI2vn04aOHUFw-dJ_zO/preview" allow="fullscreen"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                                <iframe class="resp-iframe" src="https://drive.google.com/file/d/10zejRJFl3Or2Iblw9KxDul0WgzMfTeB8/preview" allow="fullscreen"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text text-center text-lg-left">
+                                <h4>Пут / The Road</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container on-phone">
+                    <!-- Tekst levo, video desno -->
+                    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text text-center text-lg-left">
+                                <h4>Кишни дани / Rainy days</h4>
+                            </div>                           
+                        </div>
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                                <iframe class="resp-iframe" src="https://drive.google.com/file/d/1L7lsgZNhOa3-nO_TnoYz7kob1_70DXZx/preview"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ovde zavrsava -->
+                    <!-- Tekst desno, video levo -->
+                    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text text-center text-lg-left">
+                                <h4>Сутон / Dusk</h4>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                                <iframe class="resp-iframe" src="https://drive.google.com/file/d/1r4p6WniWZl38QFz2jfiEu19BkOj9ULDM/preview"></iframe>
                             </div>
                         </div>
                     </div>
@@ -79,14 +196,22 @@
                                 <h4>Лука / Harbour</h4>
                             </div>                           
                         </div>
-                        <div class="col-xl-8 col-lg-7"><iframe src="https://drive.google.com/file/d/1zUhTx-KkCd6wXpFJQsucgTp165-C26vj/preview" width="640" height="360"></iframe></div>
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                                <iframe class="resp-iframe" src="https://drive.google.com/file/d/1zUhTx-KkCd6wXpFJQsucgTp165-C26vj/preview"></iframe>
+                            </div>
+                        </div>
                     </div>
                     <!-- Ovde zavrsava -->
                     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                        <div class="col-xl-8 col-lg-7"><iframe src="https://drive.google.com/file/d/1SRfF3sZmfzYe7V7f5zDYkXVwcP5vozy0/preview" width="640" height="360"></iframe></div>
                         <div class="col-xl-4 col-lg-5">
                             <div class="featured-text text-center text-lg-left">
                                 <h4>Раскршћа / Crossroads</h4>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                                <iframe class="resp-iframe" src="https://drive.google.com/file/d/1SRfF3sZmfzYe7V7f5zDYkXVwcP5vozy0/preview"></iframe>
                             </div>
                         </div>
                     </div>
@@ -97,26 +222,25 @@
                                 <h4>Трска / Reed</h4>
                             </div>                           
                         </div>
-                        <div class="col-xl-8 col-lg-7"><iframe src="https://drive.google.com/file/d/13PeGvUaBVepocPI2vn04aOHUFw-dJ_zO/preview" width="640" height="360"></iframe></div>
+                        <!-- width="640" height="360" -->
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                            <iframe class="resp-iframe" src="https://drive.google.com/file/d/13PeGvUaBVepocPI2vn04aOHUFw-dJ_zO/preview"></iframe>
+                            </div>
+                        </div>
                     </div>
                     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                        <div class="col-xl-8 col-lg-7"><iframe src="https://drive.google.com/file/d/10zejRJFl3Or2Iblw9KxDul0WgzMfTeB8/preview" width="640" height="360"></iframe></div>
                         <div class="col-xl-4 col-lg-5">
                             <div class="featured-text text-center text-lg-left">
                                 <h4>Пут / The Road</h4>
                             </div>
                         </div>
-                    </div>
-                    <!-- Tekst desno, video levo -->
-                    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                        <div class="col-xl-8 col-lg-7"><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ffisticfestival%2Fvideos%2F133549424728492%2F&show_text=false&width=560" width="640" height="360" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
-                        <div class="col-xl-4 col-lg-5">
-                            <div class="featured-text text-center text-lg-left">
-                                <h4>Сутон / Dusk</h4>
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="video-wrap">
+                                <iframe class="resp-iframe" src="https://drive.google.com/file/d/10zejRJFl3Or2Iblw9KxDul0WgzMfTeB8/preview"></iframe>
                             </div>
                         </div>
                     </div>
-                    <!-- Ovde zavrsava -->
                 </div>
         </section>
         <!-- Signup-->
@@ -156,7 +280,7 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black-50"><a href="#!">contact@borismijatovic.com</a></div>
                             </div>
                         </div>
                     </div>
@@ -184,5 +308,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/animsition.js"></script>
+        <script src="js/anim.js"></script>
     </body>
 </html>

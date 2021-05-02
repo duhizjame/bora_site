@@ -1930,6 +1930,14 @@ pre code {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
+
+.on-phone{
+  display: none;
+}
+.on-desktop{
+  display: block;
+}
+
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     display: block;
@@ -1950,6 +1958,15 @@ pre code {
   }
   .table-responsive-md > .table-bordered {
     border: 0;
+  }
+  #top_name{
+    display: none;
+  }
+  .on-phone{
+    display: block;
+  }
+  .on-desktop{
+    display: none;
   }
 }
 @media (max-width: 991.98px) {
@@ -3729,6 +3746,24 @@ input[type=button].btn-block {
   font-size: 1.25rem;
 }
 
+.video-outer-wrap {
+  max-width: 100%;
+}
+
+.video-wrap {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+.resp-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .custom-file {
   position: relative;
   display: inline-block;
@@ -4398,7 +4433,7 @@ input[type=button].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 .card > hr {
   margin-right: 0;
@@ -10206,6 +10241,14 @@ body {
   border: 0;
 }
 
+.eng{
+  display: block;
+}
+
+.srb{
+  display: none;
+}
+
 .masthead {
   position: relative;
   width: 100%;
@@ -10274,6 +10317,10 @@ body {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
+  .featured-text2{
+    padding: 0 2rem 0 2rem;
+    border-right: 0.5rem solid #64a19d;
+  }
 }
 .projects-section .project-text {
   padding: 3rem;
@@ -10292,7 +10339,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/image\ 01.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/image\ 01.JPG");
   background-position: 50% 45%;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10313,8 +10360,7 @@ body {
   padding-top: 5rem;
 }
 .contact-section .card {
-  border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border: 0.25rem solid #64a19d;
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
